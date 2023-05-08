@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>asd</title>
+  <script src="js/crypto-js.min.js"></script>
+  <script src="js/Encryption.js"></script>
+  <script src="js/uuidv4.min.js"></script>
+
+</head>
+<body>
+<div>example by favio.figueroa</div>
+<div id="enc"></div>
+</body>
+<script>
+  const encrypted = doEncrypt('favio.figueroa', 'favioelcampeon');
+  document.getElementById('enc').append(encrypted)
+  console.log('encrypted',encrypted)
+</script>
+</html>
